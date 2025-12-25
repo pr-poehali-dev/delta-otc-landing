@@ -210,13 +210,13 @@ const Index = () => {
               </div>
             </div>
 
-            <div className="relative w-80 h-80 mx-auto animate-float">
-              <div className="absolute inset-0 bg-gradient-to-r from-[#0EA5E9] to-[#33C3F0] rounded-full opacity-20 blur-3xl animate-glow"></div>
-              <div className="absolute inset-0 border-8 border-[#0EA5E9] rounded-full opacity-30"></div>
-              <div className="absolute inset-12 border-8 border-[#33C3F0] rounded-full opacity-40"></div>
-              <div className="absolute inset-24 bg-gradient-to-br from-[#0EA5E9] via-[#33C3F0] to-[#8B5CF6] rounded-full flex items-center justify-center shadow-2xl">
-                <div className="text-white text-lg font-black tracking-wider">CRYPTO ⇄ FIAT</div>
-              </div>
+            <div className="relative max-w-sm mx-auto animate-float">
+              <div className="absolute -inset-4 bg-gradient-to-r from-[#0EA5E9] via-[#33C3F0] to-[#8B5CF6] rounded-[3rem] opacity-30 blur-3xl animate-glow"></div>
+              <img 
+                src="https://cdn.poehali.dev/files/ms_41000.jpg" 
+                alt="Delta DA Trading Platform Interface" 
+                className="relative rounded-[2.5rem] shadow-2xl w-full"
+              />
             </div>
           </div>
         </div>
